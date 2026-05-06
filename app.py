@@ -1,11 +1,9 @@
 import streamlit as st
 import pickle
-import json
+import joblib
 import numpy as np
 
-# Load model
-model = pickle.load(open("model/water_quality_rf_model.pkl", "rb"))
-
+model = joblib.load("model/water_quality_rf_model.pkl")
 # Load config
 with open("model/model_config.json") as f:
     config = json.load(f)
