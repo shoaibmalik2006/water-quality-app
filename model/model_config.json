@@ -1,0 +1,14 @@
+{
+    "custom_threshold": 0.35,
+    "features_used": [
+        "ph",
+        "Hardness",
+        "Solids",
+        "Chloramines",
+        "Sulfate",
+        "Conductivity",
+        "Organic_carbon",
+        "Trihalomethanes",
+        "Turbidity"
+    ]
+}
